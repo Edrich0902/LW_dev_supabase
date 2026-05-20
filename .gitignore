@@ -1,0 +1,11 @@
+# Supabase local state
+.supabase
+.temp
+.branches
+
+# env files
+.env
+.env.local
+
+# OS / misc
+.DS_Store
