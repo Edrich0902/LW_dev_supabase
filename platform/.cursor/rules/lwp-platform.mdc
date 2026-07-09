@@ -10,6 +10,6 @@ Workspace root: `lwp/`. Read `AGENTS.md` at the root first.
 - **LW_Portal_2.0** — active Vue 3 admin portal (super-admin only)
 - **LW_App** — active Flutter member app (Afrikaans UI)
 - **supabase/** — shared backend; all schema changes go in `migrations/`
-- **LW_Portal/** — deprecated Svelte portal; do not extend
+- **LW_Portal/** — legacy Svelte portal; reference only, never modify
 
-Plan portal + app + Supabase together. Roadmap: `roadmap.md` at workspace root (single file).
+Active repos: Portal 2.0, App, supabase. Plan those three together. Roadmap: `roadmap.md` at workspace root.

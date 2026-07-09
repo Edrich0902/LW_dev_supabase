@@ -9,7 +9,9 @@ Single source of truth for AI agents working across the Lewende Woord Paarl (LWP
 | `LW_Portal_2.0/` | Admin portal (Vue 3 + TypeScript) | **Active** — content and operations control layer |
 | `LW_App/` | Member mobile app (Flutter) | **Active** — congregation-facing experience |
 | `supabase/` | Shared backend (Postgres, Auth, RLS, RPCs) | **Active** — schema lives in `migrations/` |
-| `LW_Portal/` | Legacy admin portal (Svelte) | **Deprecated** — replaced by `LW_Portal_2.0`; do not extend |
+| `LW_Portal/` | Legacy admin portal (Svelte) | **Reference only** — read-only; never modify or commit |
+
+Only three projects are in active development: `LW_Portal_2.0`, `LW_App`, and `supabase`. `LW_Portal` may be consulted for historical context but no changes will ever be made there.
 
 Each active project has its own `AGENTS.md` with stack-specific conventions. Read this file first, then the project file for the area you are changing.
 
